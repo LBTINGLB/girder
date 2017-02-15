@@ -6,3 +6,6 @@ girder_version: "master"
 girder_update: yes
 girder_force: yes
 girder_web: yes
+
+# experimental support, will probably break things
+girder_hardened: no

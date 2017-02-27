@@ -80,7 +80,7 @@ With Ubuntu 16.04, create a systemd init script at
   WantedBy=multi-user.target
 
 and start it with: ::
-
+  sudo chmod 600 var/lib/mongodb/
   sudo service mongod start
 
 Enable the Node.js APT repository: ::
